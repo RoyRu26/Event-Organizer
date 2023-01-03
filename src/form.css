@@ -1,0 +1,55 @@
+form input
+{
+    background-color: rgb(180, 205, 237);
+    margin: 3vh;
+    height: 7vh;
+    width: 50vh;
+    border-style: none;
+    border-radius: 2vh;
+    text-align: center;
+    color: rgb(52, 73, 102);
+    letter-spacing: 0.2vh;
+    font-weight: bold;
+}
+form input::placeholder
+{
+    color: rgb(52, 73, 102);
+    letter-spacing: 0.1vh;
+    font-weight: bold;
+}
+.submit
+{
+    border: 0.4vh solid rgb(52, 73, 102);
+    width: 40vh;
+}
+.submit:hover
+{
+    background-color: rgb(145, 184, 235);
+    cursor: pointer;
+}
+form
+{
+    min-height: 70vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+form p
+{
+    font-size: 1.5vh;
+    margin: 0;
+}
+.error
+{
+    font-size: 2vh;
+    color: rgb(52, 73, 102);
+}
+@media only screen and (max-width:768px)
+{
+    form input
+    {
+        width: 60vw;
+    }
+}

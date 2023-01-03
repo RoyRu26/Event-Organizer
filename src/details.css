@@ -1,0 +1,67 @@
+h1
+{
+    font-size: 7vh;
+    color: rgb(52, 73, 102);
+}
+.detailsText
+{
+    font-size: 4vh;
+    color: rgb(180, 205, 237);
+}
+.dText
+{
+    font-size: 4vh;
+    color: rgb(165, 177, 127);
+    margin-top: 0;
+}
+.backButton
+{
+    border-style: none;
+    border-radius: 1vh;
+    height: 5vh;
+    width: 8vh;
+    background-color: rgb(194, 207, 149);
+}
+.backButton:hover
+{
+    cursor: pointer;
+    background-color: rgb(153, 163, 117);
+}
+.editButton
+{
+    border-style: none;
+    border-radius: 1vh;
+    height: 5vh;
+    width: auto;
+    background-color: rgb(194, 207, 149);
+    margin-right: 1vh;
+    margin-top: 5vh;
+}
+.editButton:hover
+{
+    cursor: pointer;
+    background-color: rgb(158, 168, 121);
+}
+input
+{
+    border-style: none;
+    height: 5vh;
+    width: 50vh;
+    margin-top: 3vh;
+    border-radius: 0.5vh;
+    text-align: center;
+}
+.saveButton
+{
+    border-style: none;
+    background-color: rgb(180, 205, 237);
+    width: 10vh;
+    height: 5vh;
+    border-radius: 0.5vh;
+    margin-left: 2vh;
+}
+.saveButton:hover
+{
+    cursor: pointer;
+    background-color: rgb(155, 175, 203);
+}
